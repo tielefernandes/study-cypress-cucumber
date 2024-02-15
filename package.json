@@ -1,0 +1,30 @@
+{
+  "name": "template-api-tests-cucumber",
+  "version": "1.0.0",
+  "description": "Projeto padrão para testes de API automatizados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiele Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@faker-js/faker": "^8.4.0",
+    "@types/fs-extra": "^11.0.4",
+    "cypress": "^13.6.4",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "^2.29.1",
+    "ts-loader": "^9.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "jsonpath": "^1.1.1"
+  }
+}
