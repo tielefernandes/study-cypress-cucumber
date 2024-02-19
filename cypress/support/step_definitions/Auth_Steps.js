@@ -9,7 +9,7 @@ Given(`que o usuário esteja autenticado e tenha as claims`, (table) => {
 	})
 	cy.request({
 		method: 'POST',
-		url: 'https://staging.auth.waycarbon.com/auth/realms/waycarbon/protocol/openid-connect/token',
+		url: 'url',
 		form: true,
 		failOnStatusCode: true,
 		body: claimsAuthentication,
