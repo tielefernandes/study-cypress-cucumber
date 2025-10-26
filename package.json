@@ -1,19 +1,20 @@
 {
-  "name": "template-api-tests-cucumber",
+  "name": "study-api-automation",
   "version": "1.0.0",
-  "description": "Projeto padrão para testes de API automatizados",
+  "description": "This project is focused on learning API Automation using Cypress and Cucumber.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "author": "Tiele Fernandes",
   "license": "ISC",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^23.0.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "@faker-js/faker": "^8.4.0",
     "@types/fs-extra": "^11.0.4",
-    "cypress": "^13.6.4",
+    "cypress": "^15.3.0",
     "cypress-xpath": "^2.0.1",
     "eslint": "^8.56.0",
     "eslint-plugin-cypress": "^2.15.1",
